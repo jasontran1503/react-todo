@@ -21,7 +21,7 @@ function TodoList(props) {
       {todos.map(todo => {
         return (
           <TodoItem key={todo.id} todo={todo} onDeleteTodo={onDeleteTodo} />
-        )
+        );
       })}
     </div>
   );
